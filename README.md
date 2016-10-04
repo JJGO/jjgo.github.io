@@ -1,1 +1,0 @@
-# jjgo.github.io
