@@ -66,7 +66,7 @@ html, body {
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: 220px;
 }
 .imgme {
@@ -83,13 +83,16 @@ html, body {
   font-size: 18px;
   font-weight: 300;
   margin-top: -6px;
+  margin-left: 10px;
 }
 #htem {
   font-size: 14px;
   font-weight: 300;
 }
 
-
+#icons{
+    margin-left: 10px;
+}
 
 @media (max-width: 961px) {
     #headerblob {
@@ -156,6 +159,7 @@ li {
         border-radius: 50%;
         width: 200px;
     }
+
 
 
 .pubt {
