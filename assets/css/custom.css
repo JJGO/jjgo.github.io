@@ -98,6 +98,16 @@ html, body {
       /*line-height: 1.7;*/
     }
 
+    .justnarrow{
+      text-align: justify;
+    }
+
+    @media (max-width: 768px) {
+      .justnarrow{
+        text-align: justify;
+      }
+    }
+
 
 #headerblob {
   position: absolute;
