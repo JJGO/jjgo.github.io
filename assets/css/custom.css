@@ -56,6 +56,48 @@ html, body {
         font-weight: 400;
     }
 
+    .expicon{
+      width: 100px;
+      height: 100px;
+      border-radius:20%;
+    }
+
+    .cvcontainer{
+      margin-bottom:40px;
+    }
+
+    .expcontainer{
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      /*display: inline-block;*/
+    }
+
+    .expblock{
+      /*max-width: 500px;*/
+      /*margin-left: 20px;*/
+      /*margin-right: 20px;*/
+      /*padding: 0;*/
+    }
+
+    .expblock p{
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    .expblock h4{
+      color:#555;
+      font-weight:400;
+      line-height: 1.7;
+    }
+
+    .expblock h5{
+      color:#333;
+      font-weight:400;
+      font-size: 13pt;
+      /*line-height: 1.7;*/
+    }
+
 
 #headerblob {
   position: absolute;
