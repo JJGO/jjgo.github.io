@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jjgo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://josejg.com
+  * I am jjgo (https://keybase.io/jjgo) on keybase.
+  * I have a public key ASCP_Q1PNEYdk24hEKnA1gwTZHzClugWOddb1K-xlGTJcQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208ffd0d4f34461d936e2110a9c0d60c13647cc296e81639d75bd4afb19464c9710a",
+      "host": "keybase.io",
+      "kid": "01208ffd0d4f34461d936e2110a9c0d60c13647cc296e81639d75bd4afb19464c9710a",
+      "uid": "89b66533efbd06969af7a516043f9d19",
+      "username": "jjgo"
+    },
+    "merkle_root": {
+      "ctime": 1537277140,
+      "hash": "79bc99be0113950ad0ce8c053beb4424dd93688015d538490ada4ab7e129e136d105e967ece4d8aa2e56243628263afa7379f8702a099d18bd54052339cac844",
+      "hash_meta": "0f4672ef21ac83193f717b1ddb29fcde1e890964db6d0cf31abb7ddc545acd0a",
+      "seqno": 3625531
+    },
+    "service": {
+      "entropy": "nGkxyFRlOBXATzyBruVpbsYy",
+      "hostname": "josejg.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.6.0"
+  },
+  "ctime": 1537277160,
+  "expire_in": 504576000,
+  "prev": "460de6335e089b3f24cc2c86b5a46277abc84f1ab4595e71bf1745162d474806",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgj/0NTzRGHZNuIRCpwNYME2R8wpboFjnXW9SvsZRkyXEKp3BheWxvYWTESpcCBcQgRg3mM14Imz8kzCyGtaRid6vITxq0WV5xvxdFFi1HSAbEIDWZiFFXqaKXg8LIM+AVISGCaiRqdxMwTD7Mn5L8Cv9gAgHCo3NpZ8RAge5YjvtGOphB2kFZ3kzmlHK1dfl7OoCqLbEWVzVnTgGVEQKq80uRPWD/iqyw+lf6GYiyVGGxql+zSW04rD9DDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICaLs/WsmxOB11pxU1c7fKOVxmX0YgxHoivpVfZERk0xo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jjgo
+
+==================================================================
