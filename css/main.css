@@ -352,13 +352,17 @@ ul {
 
 .collaborators {
   font-size: 16px;
-  margin-left: .9em;
+  /*margin-left: .9em;*/
+  margin-left: 0em;
+  text-indent: 0em;
   margin-top: .1em;
 }
 
 .destination {
   font-size: 15px;
-  margin-left: .9em;
+  /*margin-left: .9em;*/
+  margin-left: 0em;
+  text-indent: 0em;
   margin-top: .1em;
   font-style: italic;
   color: #666;
