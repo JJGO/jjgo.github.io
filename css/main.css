@@ -220,9 +220,9 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: 1em;
-  max-width: 30%;
-  padding-top:0%;
-  /*height: auto;*/
+  /*max-width: 30%;*/
+  width: 228px;
+  height: 228px;
   border-radius: 50%;
   margin-bottom: 1cm;
    float: right;
