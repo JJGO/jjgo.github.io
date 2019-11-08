@@ -221,7 +221,7 @@ ul {
   margin-left: auto;
   margin-right: 1em;
   max-width: 30%;
-  height: auto;
+  /*height: auto;*/
   border-radius: 50%;
   margin-bottom: 1cm;
    float: right;
