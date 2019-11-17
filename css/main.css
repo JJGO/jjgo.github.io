@@ -611,6 +611,16 @@ h4 {
   }
 }
 
+::selection {
+  color: #fff;
+  background: #a00; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  color: #fff;
+  background: #a00; /* Gecko Browsers */
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   body {
@@ -655,7 +665,7 @@ h4 {
   }
 
   .introduction a:hover {
-    color: #66D9EF;;
+    color: #66D9EF;
   }
 
   .code_blog a, .code_blog a:visited {
@@ -669,5 +679,17 @@ h4 {
     border-bottom: none;
   }
 
+  ::selection {
+    color: #000;
+    background: #6de8ff; /* WebKit/Blink Browsers */
+    /*background-color: rgb(102, 217, 239, 0.99);*/
+    background-color: rgb(255, 255, 255, 0.99);
+  }
+  ::-moz-selection {
+    color: #000;
+    background: #6de8ff; /* Gecko Browsers */
+    /*background-color: rgb(102, 217, 239, 0.99);*/
+    background-color: rgb(255, 255, 255, 0.99);
+  }
 
 }
