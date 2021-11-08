@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta name="generator" content="Hugo 0.65.3" />
+	<meta name="generator" content="Hugo 0.89.0" />
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Jose Javier Gonzalez Ortiz</title><link rel="apple-touch-icon" sizes="180x180" href=https://josejg.com/apple-touch-icon.png>
 	<link rel="icon" type="image/png" sizes="32x32" href=https://josejg.com/favicon-32x32.png>
@@ -52,10 +52,10 @@
 			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" alt="GitHub">
 			</a><a target="_blank" class="icon-url" title="LinkedIn" href="https://linkedin.com/in/josejg/">
 			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn">
-			</a><a target="_blank" class="icon-url" title="Twitter" href="https://twitter.com/jjgort">
-			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" alt="Twitter">
 			</a><a target="_blank" class="icon-url" title="Keybase" href="https://keybase.io/jjgo">
 			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/keybase.svg" alt="Keybase">
+			</a><a target="_blank" class="icon-url" title="Twitter" href="https://twitter.com/jjgort">
+			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" alt="Twitter">
 			</a></ul>
 	</div>
 
@@ -71,15 +71,30 @@
 			<div class="introduction"><span>
 		I am a PhD student at MIT CSAIL in the <a href="https://ddig.csail.mit.edu">CAML</a> group,
 advised by <a href="https://people.csail.mit.edu/guttag/">John Guttag</a>.
-Before joining MIT, I received a BSc in Telematics Engineering from
-<a href="https://www.icai.comillas.edu/en/">ICAI</a> in Spain.
-During my undergrad I interned at <a href="https://openlab.cern">CERN Openlab</a> and studied for one year at the University of Michigan, Ann Arbor under an exchange program.
+I&rsquo;m interested in efficient machine learning methods,
+investigating how to make current machine learning more computationally efficient and how to
+reduce training costs from an algorithmic and model design point of view.
+Recently I&rsquo;ve been exploring HyperNetworks as a way to perform amortized model learning,
+substantially reducing the computational cost of hyperparameter tuning.
 	</span>
 	<br><span>
-		My research interests lie at the intersection of machine learning methods and computer systems.
-I&rsquo;m interested both in building systems for that enable new machine learning methods and investigating how to make machine learning more computationally efficient.
-I recently developed <a href="https://github.com/jjgo/shrinkbench">ShrinkBench</a>, a library to facilitate development and standardized evaluation of neural network pruning methods.
+		Previously, I&rsquo;ve worked on pruning methods and distributed training for deep neural networks.
+While interning at Facebook AI Research Montreal I studied how parallel SGD methods scaled to large image
+classification tasks and improved current accuracy-communication trade-offs.
+I developed <a href="https://github.com/jjgo/shrinkbench">ShrinkBench</a>, a library to facilitate development and
+standardized evaluation of neural network pruning methods.
 In the past, I have worked in machine learning and computer vision for healthcare applications.
+	</span>
+	<br><span>
+		At MIT, I have also had the opportunity to teach several classes.
+I co-organized <a href="https://missing.csail.mit.edu/">Missing Semester</a>, a lecture series on programmer tools
+often left untaught in modern CS curriculums.
+I was also a TA for MIT&rsquo;s graduate distributed systems class <a href="https://pdos.csail.mit.edu/6.824">6.824</a>
+as well as Intro to Deep Learning <a href="http://introtodeeplearning.com/">6.S191</a>.
+Before joining MIT, I received a BSc in Telematics Engineering from
+<a href="https://www.icai.comillas.edu/en/">ICAI</a> in Spain.
+During my undergrad I interned at <a href="https://openlab.cern">CERN Openlab</a> and studied for one year
+at the University of Michigan, Ann Arbor under an exchange program.
 	</span>
 	<br></div>
 
@@ -88,6 +103,70 @@ In the past, I have worked in machine learning and computer vision for healthcar
 	<h4>Publications</h4><div class="year"></div>
 
 	<ul>
+		
+		<li class="publication">
+			
+			<p class="publications"> Fixing the magnitude dependece of HyperNetworks for amortized model learning </p>
+			
+			<span class="collaborators">
+				<strong>Jose Javier Gonzalez Ortiz</strong>, Adrian Dalca, John Guttag
+			</span>
+			<span class="destination">
+			<em>Under Submission</em>.
+			</span>
+
+			
+
+		</li>
+		
+		<li class="publication">
+			
+			<p class="publications"> Adaptive Rescaling by Jointly Learning at Multiple Scales </p>
+			
+			<span class="collaborators">
+				<strong>Jose Javier Gonzalez Ortiz</strong>, Adrian Dalca, John Guttag
+			</span>
+			<span class="destination">
+			<em>Under Submission</em>.
+			</span>
+
+			
+
+		</li>
+		
+		<li class="publication">
+			
+			<p class="publications"> Trade-offs of Local SGD at Scale: An Empirical Study </p>
+			
+			<span class="collaborators">
+				<strong>Jose Javier Gonzalez Ortiz</strong>, Jonathan Frankle, Mike Rabbat, Ari Morcos, Nicollas Ballas
+			</span>
+			<span class="destination">
+			NeurIPS 2020 OptML Workshop.
+			</span>
+
+			
+			<span class="code_blog">
+				
+
+				
+				[<a href="papers/psgd-postlocal_neurips2020">paper</a>]
+				
+
+				
+				[<a href="https://github.com/JJGO/geth">code</a>]
+				
+
+				
+
+				
+				[<a href="posters/psgd-postlocal_neurips2020-poster.pdf">poster</a>]
+				
+
+			</span>
+			
+
+		</li>
 		
 		<li class="publication">
 			
@@ -346,10 +425,32 @@ In the past, I have worked in machine learning and computer vision for healthcar
 		</li>
 		
 		<li>
+			<a href="https://hacker-tools.github.io" class="project"> Pylot</a>
+			
+			<p class="project_description">
+			 -	A featureful sandbox library for PyTorch and experiment handling
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
 			<a href="https://hacker-tools.github.io" class="project"> MIT Hacker Tools</a>
 			
 			<p class="project_description">
 			 -	A lecture series on programmer tools taught at MIT IAP 2019
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://listart.mit.edu/agnieszka-kurant-end-signature-2020-21" class="project"> The End of Signature - Artpiece</a>
+			
+			<p class="project_description">
+			 -	AI driven signature sculpture at Kendall Square
 			</p>
 			
 
@@ -422,17 +523,6 @@ In the past, I have worked in machine learning and computer vision for healthcar
 	</nav>
 </div>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-89721505-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 <script>
 	feather.replace()
 

@@ -5,10 +5,6 @@
     <link>https://josejg.com/tags/</link>
     <description>Recent content in Tags on Jose Javier Gonzalez Ortiz</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://josejg.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://josejg.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
