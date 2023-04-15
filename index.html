@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta name="generator" content="Hugo 0.93.3" />
+	<meta name="generator" content="Hugo 0.109.0">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Jose Javier Gonzalez Ortiz</title><link rel="apple-touch-icon" sizes="180x180" href=https://josejg.com/apple-touch-icon.png>
 	<link rel="icon" type="image/png" sizes="32x32" href=https://josejg.com/favicon-32x32.png>
@@ -17,7 +17,6 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://josejg.com/" />
-
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Jose Javier Gonzalez Ortiz"/>
 <meta name="twitter:description" content=""/>
@@ -63,13 +62,13 @@
 <img src=https://josejg.com/profile.jpg class="profile_image">
 </div>
 			<div class="introduction"><span>
-		I am a PhD student at MIT CSAIL in the <a href="https://ddig.csail.mit.edu">CAML</a> group,
-advised by <a href="https://people.csail.mit.edu/guttag/">John Guttag</a>.
+		I am a PhD student at MIT CSAIL in the <a href="https://caml.csail.mit.edu">CAML</a> group,
+advised by <a href="https://people.csail.mit.edu/guttag/">John Guttag</a> and <a href="http://www.mit.edu/~adalca/">Adrian Dalca</a>.
 I&rsquo;m interested in efficient machine learning methods,
 investigating how to make current machine learning more computationally efficient and how to
 reduce training costs from an algorithmic and model design point of view.
-Recently I&rsquo;ve been exploring HyperNetworks as a way to perform amortized model learning,
-substantially reducing the computational cost of hyperparameter tuning.
+Recent projects I&rsquo;ve worked focus on amortized model learning and in-context learning approaches,
+where many deep learning models are learned jointly substantially reducing computational costs.
 	</span>
 	<br><span>
 		Previously, I&rsquo;ve worked on pruning methods and distributed training for deep neural networks.
@@ -94,36 +93,161 @@ at the University of Michigan, Ann Arbor under an exchange program.
 
 			<div class="introduction">
 	
+	<h4>Deep Learning Libraries</h4>
+	<ul>
+		<li>
+			<a href="https://github.com/JJGO/hyperlight" class="project"> Hyperlight</a>
+			
+			<p class="project_description">
+			 -	Hypernetworks in Pytorch made easy
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://github.com/JJGO/thunderpack" class="project"> Thunderpack</a>
+			
+			<p class="project_description">
+			 -	Blazingly fast multi-modal dataformat library
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://github.com/JJGO/UniverSeg" class="project"> UniverSeg</a>
+			
+			<p class="project_description">
+			 -	Medical Imaging In-Context Segmentation Models in Pytorch
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://github.com/JJGO/pylot" class="project"> Pylot</a>
+			
+			<p class="project_description">
+			 -	A comprenhensive PyTorch library for experiment and model management
+			</p>
+			
+
+			
+		</li>
+		</ul>
+	
+</div>
+
+			<div class="introduction">
+	
 	<h4>Publications</h4><div class="year"></div>
 
 	<ul>
 		
 		<li class="publication">
 			
-			<p class="publications"> HyperNetwork Learning via Normalized Parametrizations </p>
+			<p class="publications"> Universal Medical Image Segmentation </p>
 			
 			<span class="collaborators">
-				<strong>Jose Javier Gonzalez Ortiz</strong>, Adrian Dalca, John Guttag
+				<strong>Jose Javier Gonzalez Ortiz</strong>*, Victor Ion Butoi*, Tianyu Ma, Mert R. Sabuncu, John Guttag, Adrian V. Dalca
 			</span>
 			<span class="destination">
-			<em>Under Submission</em>.
+			<em>Preprint</em>.
 			</span>
 
+			
+			<span class="code_blog">
+				
+
+				
+				[<a href="https://arxiv.org/abs/2304.06131">paper</a>]
+				
+
+				
+				[<a href="https://github.com/JJGO/UniverSeg">code</a>]
+				
+
+				
+				[<a href="https://universeg.csail.mit.edu">website</a>]
+				
+
+				
+
+				
+
+			</span>
 			
 
 		</li>
 		
 		<li class="publication">
 			
-			<p class="publications"> Amortized Learning of Flexible Feature Scaling for Efficient Segmentation Models </p>
+			<p class="publications">  Non-Proportional Parametrizations for Stable Hypernetwork Learning  </p>
+			
+			<span class="collaborators">
+				<strong>Jose Javier Gonzalez Ortiz</strong>,  John Guttag, Adrian Dalca
+			</span>
+			<span class="destination">
+			<em>Preprint</em>.
+			</span>
+
+			
+			<span class="code_blog">
+				
+
+				
+				[<a href="https://arxiv.org/abs/2304.05448">paper</a>]
+				
+
+				
+				[<a href="https://github.com/JJGO/hyperlight">code</a>]
+				
+
+				
+
+				
+
+				
+
+			</span>
+			
+
+		</li>
+		
+		<li class="publication">
+			
+			<p class="publications"> Amortized Learning of Dynamic Feature Scaling for Image Segmentation </p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>, John Guttag, Adrian Dalca
 			</span>
 			<span class="destination">
-			<em>Under Submission</em>.
+			<em>Preprint</em>.
 			</span>
 
+			
+			<span class="code_blog">
+				
+
+				
+				[<a href="https://arxiv.org/abs/2304.05448">paper</a>]
+				
+
+				
+				[<a href="https://github.com/JJGO/amortized-feature-scaling">code</a>]
+				
+
+				
+
+				
+
+				
+
+			</span>
 			
 
 		</li>
@@ -144,11 +268,13 @@ at the University of Michigan, Ann Arbor under an exchange program.
 				
 
 				
-				[<a href="papers/psgd-postlocal_neurips2020.pdf">paper</a>]
+				[<a href="https://arxiv.org/abs/2110.08133">paper</a>]
 				
 
 				
 				[<a href="https://github.com/JJGO/geth">code</a>]
+				
+
 				
 
 				
@@ -178,11 +304,13 @@ at the University of Michigan, Ann Arbor under an exchange program.
 				
 
 				
-				[<a href="papers/state_pruning_mlsys2020.pdf">paper</a>]
+				[<a href="https://arxiv.org/abs/2003.03033">paper</a>]
 				
 
 				
 				[<a href="https://github.com/JJGO/shrinkbench">code</a>]
+				
+
 				
 
 				
@@ -222,6 +350,8 @@ at the University of Michigan, Ann Arbor under an exchange program.
 				
 
 				
+
+				
 				[<a href="slides/shrinkbench_sosp2019-slides.pdf">slides</a>]
 				
 
@@ -251,6 +381,8 @@ at the University of Michigan, Ann Arbor under an exchange program.
 
 				
 				[<a href="papers/dvhm_mlhc2019.pdf">paper</a>]
+				
+
 				
 
 				
@@ -293,6 +425,8 @@ at the University of Michigan, Ann Arbor under an exchange program.
 
 				
 
+				
+
 			</span>
 			
 
@@ -315,6 +449,8 @@ at the University of Michigan, Ann Arbor under an exchange program.
 
 				
 				[<a href="papers/heart_cinc2016.pdf">paper</a>]
+				
+
 				
 
 				
@@ -354,6 +490,8 @@ at the University of Michigan, Ann Arbor under an exchange program.
 				
 
 				
+
+				
 				[<a href="slides/twofish_tfg-slides.pdf">slides</a>]
 				
 
@@ -367,6 +505,79 @@ at the University of Michigan, Ann Arbor under an exchange program.
 	</ul></div>
 
 			<div class="introduction">
+	
+	<h4>Projects</h4>
+	<ul>
+		<li>
+			<a href="https://missing.csail.mit.edu" class="project"> Missing Semester</a>
+			
+			<p class="project_description">
+			 -	The Missing Semester of Your CS Education
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://hacker-tools.github.io" class="project"> MIT Hacker Tools</a>
+			
+			<p class="project_description">
+			 -	A lecture series on programmer tools taught at MIT IAP 2019
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://github.com/JJGO/dotfiles" class="project"> dotfiles</a>
+			
+			<p class="project_description">
+			 -	Personal configuration files
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://listart.mit.edu/agnieszka-kurant-end-signature-2020-21" class="project"> The End of Signature - Artpiece</a>
+			
+			<p class="project_description">
+			 -	AI driven signature sculpture at Kendall Square
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="http://introtodeeplearning.com" class="project"> MIT Intro to Deep Learning 2018</a>
+			
+			<p class="project_description">
+			 -	Intro crash course on Deep Learning techniques
+			</p>
+			
+
+			
+		</li>
+		
+		<li>
+			<a href="https://github.com/JJGO/dtwpy" class="project"> DTWpy</a>
+			
+			<p class="project_description">
+			 -	Python library for fast and parallel computation of Dynamic Time Warping
+			</p>
+			
+
+			
+		</li>
+		</ul>
+	
+</div>
+
+            <div class="introduction">
     
     <h4>Awards & Honors</h4>
     <ul>
@@ -401,112 +612,6 @@ at the University of Michigan, Ann Arbor under an exchange program.
         </li>
         </ul>
     
-</div>
-
-			<div class="introduction">
-	
-	<h4>Projects</h4>
-	<ul>
-		<li>
-			<a href="https://missing.csail.mit.edu" class="project"> Missing Semester</a>
-			
-			<p class="project_description">
-			 -	The Missing Semester of Your CS Education
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://hacker-tools.github.io" class="project"> Pylot</a>
-			
-			<p class="project_description">
-			 -	A featureful sandbox library for PyTorch and experiment handling
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://hacker-tools.github.io" class="project"> MIT Hacker Tools</a>
-			
-			<p class="project_description">
-			 -	A lecture series on programmer tools taught at MIT IAP 2019
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://listart.mit.edu/agnieszka-kurant-end-signature-2020-21" class="project"> The End of Signature - Artpiece</a>
-			
-			<p class="project_description">
-			 -	AI driven signature sculpture at Kendall Square
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="http://introtodeeplearning.com" class="project"> MIT Intro to Deep Learning 2018</a>
-			
-			<p class="project_description">
-			 -	Intro crash course on Deep Learning techniques
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://github.com/JJGO/awesome-dark-themes" class="project"> Awesome Dark</a>
-			
-			<p class="project_description">
-			 -	Curated list of Dark theme modes for apps and websites
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://github.com/JJGO/CuboLED" class="project"> LED Cube 8x8x8</a>
-			
-			<p class="project_description">
-			 -	Designed, built and coded a 3D LED cube, it has 3D Snake
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://github.com/JJGO/dtwpy" class="project"> DTWpy</a>
-			
-			<p class="project_description">
-			 -	Python library for fast and parallel computation of Dynamic Time Warping
-			</p>
-			
-
-			
-		</li>
-		
-		<li>
-			<a href="https://github.com/JJGO/dotfiles" class="project"> dotfiles</a>
-			
-			<p class="project_description">
-			 -	Personal configuration files
-			</p>
-			
-
-			
-		</li>
-		</ul>
-	
 </div>
 
 		</div>
