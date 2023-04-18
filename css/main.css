@@ -290,7 +290,7 @@ ul {
 }
 
 .header .site-affilation .email {
-  /* color: #a00; */
+/*   color: #a00;*/
   font-size: 20px;
   display: block;
   font-family: "Source Code Pro";
@@ -692,4 +692,17 @@ h4 {
     background-color: rgb(255, 255, 255, 0.99);
   }
 
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
+.status {
+  color: #a00;
+  text-decoration: none;
+  font-size:15pt;
 }
