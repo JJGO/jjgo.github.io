@@ -20,12 +20,51 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Jose Javier Gonzalez Ortiz"/>
 <meta name="twitter:description" content=""/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:500,100,300" rel="stylesheet">
+
+
+	<style>
+	 
+	@font-face {
+	  font-family: 'Open Sans';
+	  font-style: normal;
+	  font-weight: 400;
+	  font-stretch: 100%;
+	  src: url(https://josejg.com/fonts/Open_Sans_latin.woff) format('woff');
+	}
+	 
+	@font-face {
+	  font-family: 'Source Sans Pro';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url(https://josejg.com/fonts/Source-Sans-Pro_latin.woff2) format('woff2');
+	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	 
+	@font-face {
+	  font-family: 'Source Serif Pro';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url(https://josejg.com/fonts/Source-Serif-Pro_latin.woff2) format('woff2');
+	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	 
+	@font-face {
+	  font-family: 'Source Code Pro';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url(https://josejg.com/fonts/Source-Code-Pro_latin.woff) format('woff');
+	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	
+
+	</style>
 
 	<link rel="stylesheet" type="text/css" media="screen" href=https://josejg.com/css/normalize.css />
 	<link rel="stylesheet" type="text/css" media="screen" href=https://josejg.com/css/main.css />
 
 	<script src=https://josejg.com/js/feather.min.js></script><script src=https://josejg.com/js/main.js></script>
+
+
 </head>
 
 
@@ -33,7 +72,11 @@
 		<div class="container wrapper">
 			<div class="header-container">
 <div class="header">
-	<h1 class="site-title">Jose Javier Gonzalez Ortiz</h1>
+	
+	<h1 class="site-title">
+	    <strong>Jose Javier</strong>
+	    Gonzalez Ortiz
+	 </h1>
 	<div class="site-affilation">
 		<span class="affilation"><ul class="flat">
 				<li class="position">PhD Student, MIT</li>
@@ -55,9 +98,9 @@
 		<ul><a target="_blank" class="icon-url" title="Curriculum Vitae" href="cv/CV.pdf">
 			<img class="icon" src="gfx/cv.svg" alt="Curriculum Vitae">
 			</a><a target="_blank" class="icon-url" title="GitHub" href="https://github.com/jjgo">
-			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" alt="GitHub">
+			<img class="icon" src="gfx/github.svg" alt="GitHub">
 			</a><a target="_blank" class="icon-url" title="LinkedIn" href="https://linkedin.com/in/josejg/">
-			<img class="icon" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" alt="LinkedIn">
+			<img class="icon" src="gfx/linkedin.svg" alt="LinkedIn">
 			</a></ul>
 	</div>
 
@@ -69,23 +112,21 @@
 </div>
 
 <img src=https://josejg.com/profile.jpg class="profile_image">
-</div><h3 class='status'><strong>I’m on the job market!</strong> Please reach out if you know of an opportunity that would fit my background.</h3>
+</div><h3 class='status'><strong>I’m on the job market!</strong></h3>
+<p class='status2'>Please reach out if you know of an opportunity that would fit my background.</p>
 			<div class="introduction"><span>
-		I am a PhD student at MIT CSAIL in the <a href="https://caml.csail.mit.edu">CAML</a> group,
+		I am final year PhD Student at MIT in the <a href="https://caml.csail.mit.edu">CAML</a> group,
 advised by <a href="https://people.csail.mit.edu/guttag/">John Guttag</a> and <a href="http://www.mit.edu/~adalca/">Adrian Dalca</a>.
 I&rsquo;m interested in efficient machine learning methods,
 investigating how to make current machine learning more computationally efficient and how to
 reduce training costs from an algorithmic and model design point of view.
 Recent projects I&rsquo;ve worked focus on amortized model learning and in-context learning approaches,
-where many deep learning models are learned jointly substantially reducing computational costs.
-Previously, I&rsquo;ve worked on pruning methods and distributed training for deep neural networks.
+where multiple tasks are learned jointly.
+Previously, I&rsquo;ve worked on asynchronous large-scale distributed training and neural network pruning methods.
 	</span>
 	<br><span>
-		At MIT, I have also had the opportunity to teach several classes.
-I co-organized <a href="https://missing.csail.mit.edu/">Missing Semester</a>, a lecture series on programmer tools
-often left untaught in modern CS curriculums.
-I was also a TA for MIT&rsquo;s graduate distributed systems class <a href="https://pdos.csail.mit.edu/6.824">6.824</a>
-as well as Intro to Deep Learning <a href="http://introtodeeplearning.com/">6.S191</a>.
+		At MIT, I co-organized <a href="https://missing.csail.mit.edu/">Missing Semester</a>, a lecture series on programmer tools
+often left untaught in modern CS curriculums. During my PhD, I interned at <a href="https://ai.facebook.com/">Facebook AI Research</a> and <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/">Microsoft Research</a>.
 Before joining MIT, I received a BSc in Telematics Engineering from
 <a href="https://www.icai.comillas.edu/en/">ICAI</a> in Spain.
 During my undergrad I interned at <a href="https://openlab.cern">CERN Openlab</a> and studied for one year
@@ -168,7 +209,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Universal Medical Image Segmentation </p>
+			<p class="publications">Universal Medical Image Segmentation</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>*, Victor Ion Butoi*, Tianyu Ma, Mert R. Sabuncu, John Guttag, Adrian V. Dalca
@@ -204,7 +245,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications">  Non-Proportional Parametrizations for Stable Hypernetwork Learning  </p>
+			<p class="publications"> Non-Proportional Parametrizations for Stable Hypernetwork Learning </p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>,  John Guttag, Adrian V. Dalca
@@ -238,7 +279,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Amortized Learning of Dynamic Feature Scaling for Image Segmentation </p>
+			<p class="publications">Amortized Learning of Dynamic Feature Scaling for Image Segmentation</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>, John Guttag, Adrian V. Dalca
@@ -272,7 +313,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Trade-offs of Local SGD at Scale: An Empirical Study </p>
+			<p class="publications">Trade-offs of Local SGD at Scale: An Empirical Study</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>, Jonathan Frankle, Mike Rabbat, Ari Morcos, Nicollas Ballas
@@ -308,7 +349,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> What is the State of Neural Network Pruning? </p>
+			<p class="publications">What is the State of Neural Network Pruning?</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>*, Davis Blalock*, Jonathan Frankle, John Guttag
@@ -346,7 +387,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Standardizing Evaluation of Neural Network Pruning </p>
+			<p class="publications">Standardizing Evaluation of Neural Network Pruning</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>, Davis Blalock, John Guttag
@@ -384,7 +425,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Learning from Few Subjects with Large Amounts of Voice Monitoring Data </p>
+			<p class="publications">Learning from Few Subjects with Large Amounts of Voice Monitoring Data</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>, Daryush Mehta, Jarrad Van Stan, Robert Hillman, John Guttag, Marzyeh Ghassemi
@@ -420,7 +461,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Image Segmentation of Liver Stage Malaria Infection </p>
+			<p class="publications">Image Segmentation of Liver Stage Malaria Infection</p>
 			
 			<span class="collaborators">
 				Ava Soleimany, Harini Suresh, <strong>Jose Javier Gonzalez Ortiz</strong>, Divya Shanmugam, Nil Gural, John Guttag, Sangeeta Bhatia
@@ -452,7 +493,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> Heart Sound Classification based on Temporal Alignment Techniques </p>
+			<p class="publications">Heart Sound Classification based on Temporal Alignment Techniques</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez</strong>, Cheng Perng Phoo, Jenna Wiens
@@ -486,7 +527,7 @@ at the University of Michigan, Ann Arbor under an exchange program.
 		
 		<li class="publication">
 			
-			<p class="publications"> A Simple Power Attack in the TwoFish Key Schedule </p>
+			<p class="publications">A Simple Power Attack in the TwoFish Key Schedule</p>
 			
 			<span class="collaborators">
 				<strong>Jose Javier Gonzalez Ortiz</strong>, Kevin J. Compton
