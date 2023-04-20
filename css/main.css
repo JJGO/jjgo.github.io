@@ -513,7 +513,7 @@ h4 {
 .introduction a, .introduction a:visited {
   color: #333;
   text-decoration: none;
-  text-decoration-color: #d00;
+/*  text-decoration-color: #d00;*/
   /*box-shadow: inset 0 -3px #ffc773;*/
   /*box-shadow: inset 0 -2px #d00;*/
   border-bottom: 1px solid #d00;
@@ -523,6 +523,7 @@ h4 {
   /*background-color: #d00;*/
   /*border-bottom-color: #d00*/
   border-bottom-style: dashed;
+/*  border-bottom: 1px solid #d00;*/
   color: #d00;
 }
 
@@ -710,6 +711,7 @@ h4 {
 
   .introduction a:hover {
     color: #66D9EF;
+/*    border-bottom: 1px solid #66D9EF;*/
   }
 
   .code_blog a, .code_blog a:visited {
@@ -738,16 +740,10 @@ h4 {
 
   .status {
     color: #66D9EF;
-    text-decoration: none;
-    font-size:18px;
-    margin:0;
   }
 
   .status2 {
     color: #66D9EF;
-    text-decoration: none;
-    font-size:16px;
-    margin-top:0;
   }
 }
 
