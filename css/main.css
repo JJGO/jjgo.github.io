@@ -144,6 +144,7 @@ h6 {
 
 ul {
   padding-left: 15px;
+  margin-left: 10px;
 }
 
 ul.flat {
@@ -365,11 +366,11 @@ ul {
 }
 
 .project {
-  margin: .5em -.5em 0em;
+  margin: .5em 0em 0em;
 }
 
 .award {
-  margin: .5em -.5em 0em;
+  margin: .5em 0em 0em;
 }
 
 
@@ -392,7 +393,7 @@ ul {
 }
 
 .project_description {
- margin: .5em .6em 0em;
+ margin: .5em 0em 0em;
 }
 
 .section .section-header {
@@ -462,6 +463,10 @@ ul {
 .collaborators strong {
   text-decoration: underline;
   font-weight: inherit;
+}
+
+.collaborators {
+  font-size: 15px;
 }
 
 .social ul {
@@ -614,12 +619,40 @@ h4 {
     display: block;
     min-width: 200px;
   }
+
+  ul {
+    margin-left: 5px;
+  }
+
+  .publication li {
+    margin-bottom: 0px;
+  }
+
+  .introduction ul .publication {
+    margin-bottom: 20px;
+  }
+
+  .collaborators {
+
+  }
+
+  body {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
   body {
     font-size: 16px;
   }
+  .code_blog {
+    font-size: 15px;
+  }
+
+  h4 {
+    margin-left: -5px;
+  }
+
 }
 
 ::selection {
@@ -716,4 +749,8 @@ h4 {
     font-size:16px;
     margin-top:0;
   }
+}
+
+ul {
+  list-style-type: square;
 }
