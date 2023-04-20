@@ -213,7 +213,7 @@ ul {
   /*max-width: 30%;*/
   width: 228px;
   height: 228px;
-  border-radius: 50%;
+/*  border-radius: 50%;*/
   margin-bottom: 1cm;
    float: right;
    flex-shrink: 0;
@@ -223,7 +223,7 @@ ul {
 
 .profile_image_small {
   display: none;
-  border-radius: 50%;
+/*  border-radius: 50%;*/
   margin: 0 auto;
   width: 35%;
 
@@ -392,7 +392,7 @@ ul {
 }
 
 .project_description {
- margin: .5em .9em 0em;
+ margin: .5em .6em 0em;
 }
 
 .section .section-header {
