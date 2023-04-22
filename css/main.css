@@ -469,7 +469,7 @@ ul {
   font-size: 15px;
 }
 
-.social ul {
+.links ul {
   margin-top: 1.5em;
   padding-left: 0em;
   margin-bottom: .5em;
@@ -610,7 +610,7 @@ h4 {
     text-align: center;
   }
 
-  .header .social {
+  .header .links {
     margin: 0 auto;
     text-align: center;
     /*width: 280px;*/
