@@ -687,9 +687,9 @@ h4 {
     text-decoration: none;
   }
 
-  img {
-    filter: grayscale(30%);
-  }
+  /* img { */
+  /*   filter: grayscale(30%); */
+  /* } */
 
   h1, h2, h3, h4, h5, h6 {
     color: #eee;
