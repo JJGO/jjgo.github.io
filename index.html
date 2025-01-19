@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta name="generator" content="Hugo 0.109.0">
+	<meta name="generator" content="Hugo 0.141.0">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Jose Javier Gonzalez Ortiz</title><link rel="apple-touch-icon" sizes="180x180" href=https://josejg.com/apple-touch-icon.png>
 	<link rel="icon" type="image/png" sizes="32x32" href=https://josejg.com/favicon-32x32.png>
@@ -13,13 +13,14 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="alternate" type="application/rss+xml" href="https://josejg.com/index.xml" title="Jose Javier Gonzalez Ortiz" />
-	<meta property="og:title" content="Jose Javier Gonzalez Ortiz" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://josejg.com/" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jose Javier Gonzalez Ortiz"/>
-<meta name="twitter:description" content=""/>
+	<meta property="og:url" content="https://josejg.com/">
+  <meta property="og:site_name" content="Jose Javier Gonzalez Ortiz">
+  <meta property="og:title" content="Jose Javier Gonzalez Ortiz">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Jose Javier Gonzalez Ortiz">
 
 
 	<style>
@@ -81,7 +82,7 @@
 	 </h1>
 	<div class="site-affilation">
 		<span class="affilation"><ul class="flat">
-				<li class="position">PhD Student, MIT</li>
+				<li class="position">Research Scientist, DataBricks</li>
 				<li class="email" title="You have to type it" >
 					<span class="prevent-select" style="display: inline">josejg</span>
 					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-at" viewBox="0 0 14 14">
@@ -120,7 +121,7 @@
 </div><h3 class='status'></h3>
 <p class='status2'></p>
 			<div class="introduction"><span>
-		I am a Research Scientist at <a href="https://www.databricks.com/research/mosaic">DataBricks Mosaic Research</a>, where I work in the NLP pretraining team. I was part of the core team behind <a href="https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm">DBRX</a>, a frontier LLM model developped by DataBricks. I am currently working on improving Large Language Model (LLM) pretraining efficiency and fine-tuning capabilities, and I am interested in building multi modal and adaptable foundational models.
+		I am a Research Scientist at <a href="https://www.databricks.com/research/mosaic">DataBricks Mosaic Research</a>, where I work in the Training and Inference Effiency team. I was part of the core team behind <a href="https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm">DBRX</a>, a frontier LLM model developped by DataBricks. I am currently working on improving Large Language Model (LLM) pretraining efficiency and fine-tuning capabilities, and I am interested in building multi modal and adaptable foundational models.
 	</span>
 	<br><span>
 		I got my PhD in Computer Science at <a href="https://www.csail.mit.edu/">MIT CSAIL</a> working with  <a href="https://people.csail.mit.edu/guttag/">John Guttag</a> and <a href="http://www.mit.edu/~adalca/">Adrian Dalca</a>. During my PhD I worked in efficient deep learning methods, and for my thesis I focused on learning reconfigurable vision models, where multiple tasks are learned jointly in an amortized way. We achieved this using techniques such as hypernetworks and in-context learning. During my PhD I also worked on asynchronous large-scale distributed training and neural network pruning methods.
@@ -210,12 +211,42 @@ Previously, I received a BSc in Telematics Engineering from
 	<h4>Publications</h4>
 	<ul>
 		
+		<li class="publication"><p class="publications">MultiverSeg: Scalable Interactive Segmentation of Biomedical Imaging Datasets with In-Context Guidance</p>
+			<span class="collaborators">
+				Hallee Wong, <strong>Jose Javier Gonzalez Ortiz</strong>, John Guttag, Adrian V. Dalca
+			</span>
+			<span class="destination">
+			arXiv Preprint 2024.
+			</span>
+			
+			<span class="code_blog">
+				
+
+				
+				[<a href="https://arxiv.org/abs/2412.15058">paper</a>]
+				
+
+				
+				[<a href="https://github.com/halleewong/MultiverSeg">code</a>]
+				
+
+				
+				[<a href="https://multiverseg.csail.mit.edu">website</a>]
+				
+
+				
+
+				
+			</span>
+			
+		</li>
+		
 		<li class="publication"><p class="publications">LoRA Learns Less and Forgets Less</p>
 			<span class="collaborators">
 				Dan Biderman, <strong>Jose Javier Gonzalez Ortiz</strong>, Jacob Portes, Mansheej Paul, Philip Greengard, Connor Jennings, Daniel King, Sam Havens, Vitaliy Chiley, Jonathan Frankle, Cody Blakeney, John P. Cunningham
 			</span>
 			<span class="destination">
-			ArXiv Preprint.
+			Transactions on Machine Learning Research (TMLR) 2024, Featured Certification.
 			</span>
 			
 			<span class="code_blog">
@@ -226,7 +257,11 @@ Previously, I received a BSc in Telematics Engineering from
 				
 
 				
+				[<a href="https://huggingface.co/LoRA-TMLR-2024">code</a>]
+				
 
+				
+				[<a href="https://openreview.net/forum?id=aloEru2qCG">website</a>]
 				
 
 				
@@ -264,12 +299,12 @@ Previously, I received a BSc in Telematics Engineering from
 			
 		</li>
 		
-		<li class="publication"><p class="publications">Tyche: Stochastic In-Context Learning for Medical Image Segmentation</p>
+		<li class="publication"><p class="publications">Tyche: Stochastic In-Context Learning for Universal Medical Image Segmentation</p>
 			<span class="collaborators">
-				Marianne Rakic, Hallee E. Wong, <strong>Jose Javier Gonzalez Ortiz</strong>, Beth Cimini, John Guttag, Adrian V. Dalca
+				Marianne Rakic, Hallee Wong, <strong>Jose Javier Gonzalez Ortiz</strong>, Beth Cimini, John Guttag, Adrian V. Dalca
 			</span>
 			<span class="destination">
-			Computer Vision and Pattern Recognition Conference - CVPR 2024.
+			Computer Vision and Pattern Recognition Conference - CVPR 2024 (Highlight).
 			</span>
 			
 			<span class="code_blog">
@@ -280,9 +315,11 @@ Previously, I received a BSc in Telematics Engineering from
 				
 
 				
-				[<a href="https://github.com/mariannerakic/tyche/">code</a>]
+				[<a href="https://github.com/mariannerakic/tyche">code</a>]
 				
 
+				
+				[<a href="https://tyche.csail.mit.edu">website</a>]
 				
 
 				
@@ -698,9 +735,7 @@ Previously, I received a BSc in Telematics Engineering from
 	<nav class="nav">
 		
 	</nav>
-</div>
-
-<script>
+</div><script>
 	feather.replace()
 
 </script>
